@@ -1,5 +1,16 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Formulaire />
   </div>
 </template>
+
+<script>
+import Formulaire from '@/components/Formulaire.vue'
+
+export default {
+  name: 'AboutView',
+  components: {
+    Formulaire
+  }
+}
+</script>
